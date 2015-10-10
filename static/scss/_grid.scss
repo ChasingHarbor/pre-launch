@@ -1,0 +1,19 @@
+@import "vendor/bourbon/bourbon";
+
+// Basic Settings
+$border-box-sizing: true;
+
+// $visual-grid: true;
+$column: 60px;
+$gutter: 20px;
+$max-width: $gridWidth;
+
+// override settings before importing neat
+@import "vendor/neat/neat";
+
+// Breakpoints
+$retina: new-breakpoint(-webkit-min-device-pixel-ratio 2 min-resolution 192dpi);
+$mobile: new-breakpoint(max-width 480px);
+$tablet: new-breakpoint(min-width 481px max-width 960px);
+$smallDesktop: new-breakpoint(min-width 961px max-width 1366px);
+$largeDesktop: new-breakpoint(min-width 1367px);

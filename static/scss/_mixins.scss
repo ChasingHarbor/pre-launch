@@ -1,0 +1,9 @@
+@mixin retinaImage($fileName) {
+    background: url('../images/' + $fileName +'.jpg') no-repeat center;
+    background-size: cover;
+
+    @include media($retina) {
+        background: url('../images/' + $fileName + '@2x.jpg') no-repeat center;
+        background-size: cover;
+    }
+}

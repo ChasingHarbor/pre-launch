@@ -1,0 +1,32 @@
+// Colors
+$backgroundColor: #f9f9f9;
+$bodyTextColor: #222222;
+
+$primaryColor: #48DC95;
+
+$linkColor: $primaryColor;
+$linkHoverColor: darken($linkColor, 10%);
+
+$white: #f9f9f9;
+$black: #222222;
+
+// Font
+$logoFontFamily: 'Lato', Helvetica, Arial, sans-serif;
+$serifFontFamily: 'Merriweather', serif;
+
+$bodyFontFamily: $serifFontFamily;
+$headingFontFamily: $logoFontFamily;
+
+// Paths
+$iconPath: '../fonts/';
+$imagePath: '../images/';
+
+// Breakpoints
+$retina: new-breakpoint(-webkit-min-device-pixel-ratio 2 min-resolution 192dpi);
+$mobile: new-breakpoint(max-width 480px);
+$tablet: new-breakpoint(min-width 481px max-width 960px);
+$smallDesktop: new-breakpoint(min-width 961px max-width 1366px);
+$largeDesktop: new-breakpoint(min-width 1367px);
+
+// Grid
+$gridWidth: 960px;
